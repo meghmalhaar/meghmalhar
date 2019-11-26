@@ -1,0 +1,8 @@
+
+.col-sm-3.hidden-xs img{
+    height: auto;
+    width: 7vw;
+}
+.update-cart,.remove-from-cart{ background-color: rgb(235, 232, 232); border-color: #ebe8e8; }
+.update-cart:hover,.remove-from-cart:hover{ background-color: rgb(235, 232, 232); border-color: #ebe8e8; }
+.remove-from-cart i { color:#e3342f; }

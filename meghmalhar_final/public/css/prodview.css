@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.breadcrumb{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 11px;
+    letter-spacing: 2.8px;
+    background-color: #fff;
+   }
+
+   .breadcrumb{
+    padding-top: 0.75rem;
+    padding-right: 0rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0rem;
+
+   }
+   
+.breadcrumb-item + .breadcrumb-item::before {
+    font-family: 'Ionicons';
+    content: "\f125";
+}
+h1,h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 1.8px;
+}
+
+.pricetbl{
+    padding-left: 0 !important;
+}
+.detailtbl {
+    padding-left: 0 !important;
+    /*width: 9vw; */
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    line-height: 24px;
+}
+
+.td-title{
+	font-weight: bold;
+	text-transform: uppercase;
+    font-weight: normal;
+    font-size: 11px;
+    letter-spacing: 2.8px;
+    line-height: 20px;
+    display: block;
+    position: relative;
+    margin: 0;
+}
+.product-details h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 11px;
+    letter-spacing: 2.8px;
+    padding-bottom: 10px;
+    display: block;
+    position: relative;
+    margin: 0;}
+
+.product-details h4{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 11px;
+    letter-spacing: 2.8px;
+    padding-bottom: 0px;
+    display: block;
+    position: relative;
+    margin: 0;
+}
+
+.sizeFitDesc {
+    font-weight: 400;
+    border: none;
+    margin-top: 12px;
+}
+
+    .product-details p {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    line-height: 24px;
+}
+/*table, tr, td{
+	padding: 20px;
+}*/
+
+.price{
+	font-size: 11px;
+	color: #5a6268;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 20px;
+	letter-spacing: 2.8px;
+}
+.color{
+	font-size: 11px;
+	color: #5a6268;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 20px;
+	letter-spacing: 2.8px;
+}
+
+.btn-size{
+    z-index: 0!important;
+    background-color: #fff;
+    border: 1px solid #bfbfbf;
+    border-radius: 0px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1px;
+}
+
+.btn-size.active{
+border: 1px solid #000;
+color: #000;
+}
+btnsizegroup.active{
+  border: 1px solid #000;  
+}
+
+.btn-size:active, .btn-size:focus, .btn-size:active:focus, .btn-size.active:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.btn:active, .btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.btn-color{
+z-index: 0!important;
+}
+.btn-td{
+	font-size: 11px;
+	color: #5a6268;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 20px;
+	letter-spacing: 2.8px;
+}
+    
+/*.currency{
+	font-size: 20px;
+	color: #2176bd;
+	font-weight: bold;
+}*/
+.btn-size-chart {
+    float: none;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+   }
+
+ .btn-cart-whish {
+ 	background-color: #fff;
+ 	border: 1px solid #bfbfbf;
+	border-radius: 0px;
+    float: none;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    height: 40px;
+    width: 100%;
+    margin: 10px;
+   }
+
+   .btn-cart-whish:active{
+        border: 1px solid #000;
+   }
+
+   .btn-cart-whish:focus{
+        border: 1px solid #000;
+   }
+
+   @media(max-width: 480px) {
+  .pricetbl {
+    display: table-row;
+    padding: 10px;
+  }
+  .detailtbl{
+    display: table-row;
+    padding: 10px;
+  }
+ 
+}
+
+
+.card-body {
+    padding: 0.3rem; 
+}
+

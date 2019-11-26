@@ -1,0 +1,46 @@
+.example{height: auto!important;}
+.easyzoom {
+    position: relative;
+    height: auto!important;
+}
+
+.easyzoom .magnifier {
+    box-sizing: border-box;
+    border: 1px solid #999;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 10;
+    display: none;
+    cursor: move;
+}
+
+.easyzoom .small,
+.easyzoom .big {
+    height: 100%!important;
+    position: absolute;
+    border: 0px solid #aaa;
+}
+
+.easyzoom .small {
+    top: 0;
+    left: 0;
+    cursor: move;
+    
+}
+
+.easyzoom .big {
+    overflow: hidden;
+    display: none;
+    height:75vh !important;
+    z-index: 10;
+}
+
+.easyzoom .small img,
+.easyzoom .big img {
+ 	height:auto !important;
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+}
